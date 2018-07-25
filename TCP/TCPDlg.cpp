@@ -175,8 +175,7 @@ HCURSOR CTCPDlg::OnQueryDragIcon()
 }
 
 
-#define TCP_SERVER 2
-#define TCP_CLIENT 4
+enum timer{ TCP_SERVER = 2, TCP_CLIENT };
 
 
 void CTCPDlg::OnBnClickedButtonServer()
